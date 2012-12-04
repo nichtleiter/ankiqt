@@ -13,7 +13,9 @@ If you're on another distribution the packages may be named differently, so
 please consult your package manager.
 
 Your Python version will need to be 2.6 or 2.7 (not 3+), and PyQt needs to be
-4.7 or later.
+4.7 or later. Additionally the underlying version of libqt needs to be 
+libqt >= 4.7.3. This is especially important for those who use Debian Squeeze 
+since it ships with libqt-4.6.3.
 
 Installation & Running
 ------------------------
